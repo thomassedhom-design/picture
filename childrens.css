@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#cdd0cb
+}
+
+.first{
+    width:100%;
+    height:80px; 
+    background:#7c9473;
+    display:flex;
+    position:fixed;
+    z-index:2
+}
+
+.first .headline{
+    margin:0 0 0 30px;
+    align-items: center;
+    font-size:30px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    display:flex;
+    width:18%
+}
+
+.first .headline .firstphoto{
+    height:57px;
+    display:flex;
+}
+
+.first .headline .firstphoto img{
+    width:101px;
+    height:59px;
+    border-radius: 50%;
+    margin:0 0 0 6px;
+}
+
+.first .more{
+    display:flex;
+    width:82%;
+    justify-content: center;
+}
+
+
+.first .more ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:wrap;
+    height:100%;
+    padding-top:5px
+}
+
+
+.first .more ul li{
+    margin:5px 27px 5px 27px;
+    font-size:24px;
+    color:white;
+    transition:all 0.2s ease-in-out;
+    width:84px;
+    height:30px;
+    display: flex;
+}
+
+.first .more ul li a{
+    text-decoration:none;
+    color:white
+}
+
+.first .more ul li a:hover{
+font-size: 29px;
+color: rgb(131, 89, 89);
+transition:all 0.2s ease-in-out ;
+}
+
+.first .more ul li a:active{
+    color:yellowgreen
+}
+
+
+.container{
+    width:100%;
+    height:9177px;
+    background-color:rgb(82, 74, 74);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.container .children{
+width:100%;
+height:560px;
+background-color: #cfdac8;
+display: inline-block;
+justify-content:space-around;
+overflow: auto;
+}
+
+.container .children1{
+padding:78px 0 0 0;
+width:100%;
+height:560px;
+background-color: #cfdac8;
+overflow:auto;
+display:inline-block;
+justify-content:space-around;
+}
+
+.name{
+position: absolute;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+width:99.2%;
+background-color: rgb(195 186 181 / 61%);
+border-radius: 80px;
+padding:5px;
+font-size:22.5px;
+color:black;
+z-index:1;
+font-family: 'Lobster', cursive;
+
+
+}
+
+.container .children1 .photo , .container .children .photo{
+width:30%;
+height:80%;
+display: inline-block;
+flex-wrap: wrap;
+justify-content:space-around;
+align-items: center;
+background-color: yellowgreen;
+margin:3px 3px 3px 30px;
+border-radius:80px
+}
+.container .children1 .photo1 ,.container .children .photo1  {
+    width:30%;
+    height:80%;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: yellowgreen;
+    margin:70px 3px 3px 30px;
+    border-radius:80px
+    }
+
+    .container .children1 .photo1 img , .container .children1 .photo img ,.container .children .photo img ,.container .children .photo1 img {
+        width:100%;
+        height:100%;
+        border-radius:80px ;
+    }

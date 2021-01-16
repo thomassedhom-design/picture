@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#cdd0cb
+}
+
+.first{
+    width:100%;
+    height:80px; 
+    background:#7c9473;
+    display:flex;
+    position:fixed;
+    z-index:2
+}
+
+.first .headline{
+    margin:0 0 0 30px;
+    align-items: center;
+    font-size:30px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    display:flex;
+    width:18%
+}
+
+.first .headline .firstphoto{
+    height:57px;
+    display:flex;
+}
+
+.first .headline .firstphoto img{
+    width:101px;
+    height:59px;
+    border-radius: 50%;
+    margin:0 0 0 6px;
+}
+
+.first .more{
+    display:flex;
+    width:82%;
+    justify-content: center;
+}
+
+
+.first .more ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:wrap;
+    height:100%;
+    padding-top:5px
+}
+
+
+.first .more ul li{
+    margin:5px 27px 5px 27px;
+    font-size:24px;
+    color:white;
+    transition:all 0.2s ease-in-out;
+    width:84px;
+    height:30px;
+    display: flex;
+}
+
+.first .more ul li a{
+    text-decoration:none;
+    color:white
+}
+
+.first .more ul li :hover{
+font-size: 29px;
+color: rgb(131, 89, 89);
+transition:all 0.2s ease-in-out ;
+}
+
+.first .more ul li a:active{
+    color:yellowgreen
+}
+
+.middle{
+width:100%;
+height:450px;
+padding:142px 0 95px 0;
+background-color: #cfdac8;
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.middle .birthday ,.middle .childrens {
+width:500px;
+height:450px;
+display:flex;
+background-color: rgb(106, 136, 118);
+border-radius: 60px;
+transition:all 0.6s ease-in-out 
+}
+.middle .birthday img , .middle .childrens img{
+    width:100%;
+    height:100%;
+    border-radius:60px ;
+}
+
+.middle .birthday .comment , .middle .childrens .comment{
+position: absolute;
+text-align:center;
+width:430px;
+background-color: rgb(56 50 47 / 61%);
+border-radius: 80px;
+margin:2.5px 0 0 30px;
+padding:5px;
+font-size:20px;
+color:rgb(46, 168, 162);
+z-index:1
+}
+
+.middle .childrens:hover{
+        height:470px;
+        transition:all 0.6s ease-in-out 
+}
+
+.middle .birthday:hover{
+        height:470px;
+        transition:all 0.6s ease-in-out 
+}
+
+
+.end{
+width:100%;
+height:300px;
+background-color: #294546;
+text-align: center;
+}
+
+.end .contact{
+width:100%;
+height:100%;
+}
+
+.end .contact h2{padding:20px 0 0 25px;color:rgb(163, 163, 163)}
+
+.end .contact p{padding:20px 0 0 25px;font-size:19px;color:rgb(163, 163, 163)}
+
+.end .contact span{font-weight:bold}
