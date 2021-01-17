@@ -62,7 +62,8 @@ body{
 
 .first .more ul li a{
     text-decoration:none;
-    color:white
+    color:white;
+    transition:all 0.2s ease-in-out;     
 }
 
 .first .more ul li :hover{
