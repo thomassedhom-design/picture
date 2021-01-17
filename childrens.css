@@ -72,11 +72,6 @@ color: rgb(131, 89, 89);
 transition:all 0.2s ease-in-out ;
 }
 
-.first .more ul li:hover{
-font-size: 29px;
-color: rgb(131, 89, 89);
-transition:all 0.2s ease-in-out ;
-}
 
 .first .more ul li a:active{
     color:yellowgreen
