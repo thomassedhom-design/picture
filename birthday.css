@@ -63,7 +63,7 @@ body{
 .first .more ul li a{
     text-decoration:none;
     color:white;
-    transition:all 0.2s ease-in-out
+    transition:all 0.2s ease-in-out;
 }
 
 .first .more ul li a:hover{
